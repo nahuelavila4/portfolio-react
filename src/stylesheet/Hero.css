@@ -1,0 +1,9 @@
+.hero{
+    background-image: url('../img/espacio.jpg');
+    /* background-color: rgb(36, 33, 29); */
+    height: 90vh;
+}
+.iconos{
+    display: flex;
+    align-items: flex-end;
+}
