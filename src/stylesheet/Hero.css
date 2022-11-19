@@ -1,9 +1,19 @@
 .hero{
     background-image: url('../img/espacio.jpg');
     /* background-color: rgb(36, 33, 29); */
-    height: 90vh;
+    min-height: 90vh;
+    color: aliceblue;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.presentacion{
+    margin-top: auto;
 }
 .iconos{
-    display: flex;
-    align-items: flex-end;
+    margin-top: auto;
+    padding-bottom: 2em;
 }

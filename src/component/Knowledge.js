@@ -3,7 +3,7 @@ import "../stylesheet/Knowledge.css";
 
 function Frontend() {
   return (
-    <div className="Front bg-info">
+    <div className="front">
       <h3>Front-End</h3>
       <h5>HTML</h5>
       <h5>CSS</h5>
@@ -16,7 +16,7 @@ function Frontend() {
 
 function Backend() {
   return (
-    <div className="Front bg-info">
+    <div className="front">
       <h3>Front-End</h3>
       <h5>HTML</h5>
       <h5>CSS</h5>
@@ -29,7 +29,7 @@ function Backend() {
 
 function Tool() {
   return (
-    <div className="Front bg-info">
+    <div className="front">
       <h3>Front-End</h3>
       <h5>HTML</h5>
       <h5>CSS</h5>
@@ -42,7 +42,7 @@ function Tool() {
 
 export function Knowledge() {
   return (
-    <div className="container text-center">
+    <div className="tecs container text-center">
       <div className="row">
         <h1>Tecnologias</h1>
       </div>

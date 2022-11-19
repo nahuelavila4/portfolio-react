@@ -1,0 +1,14 @@
+.tecs{
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.front{
+    background: #d6953a;
+    padding: 1em;
+    border-radius: .5em;
+}
