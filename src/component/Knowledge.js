@@ -4,12 +4,12 @@ import "../stylesheet/Knowledge.css";
 function Frontend() {
   return (
     <div className="front">
-      <h3>Front-End</h3>
-      <h5>HTML</h5>
-      <h5>CSS</h5>
-      <h5>JavaScript</h5>
-      <h5>React</h5>
-      <h5>Bootstrap</h5>
+      <h4>Front-End</h4>
+      <p>HTML</p>
+      <p>CSS</p>
+      <p>JavaScript</p>
+      <p>React</p>
+      <p>Bootstrap</p>
     </div>
   );
 }
@@ -17,12 +17,10 @@ function Frontend() {
 function Backend() {
   return (
     <div className="front">
-      <h3>Front-End</h3>
-      <h5>HTML</h5>
-      <h5>CSS</h5>
-      <h5>JavaScript</h5>
-      <h5>React</h5>
-      <h5>Bootstrap</h5>
+      <h4>Back-End</h4>
+      <p>PHP</p>
+      <p>MongoDB</p>
+      <p>NodeJS</p>
     </div>
   );
 }
@@ -30,30 +28,28 @@ function Backend() {
 function Tool() {
   return (
     <div className="front">
-      <h3>Front-End</h3>
-      <h5>HTML</h5>
-      <h5>CSS</h5>
-      <h5>JavaScript</h5>
-      <h5>React</h5>
-      <h5>Bootstrap</h5>
+      <h4>Herramientas</h4>
+      <p>Visual Studio Code</p>
+      <p>Git</p>
+      <p>Trello</p>
     </div>
   );
 }
 
 export function Knowledge() {
   return (
-    <div className="tecs container text-center">
-      <div className="row">
+    <div className="tecs text-center">
+      <div className="titulo row">
         <h1>Tecnologias</h1>
       </div>
-      <div className="row">
-        <div className="col">
+      <div className="datos row">
+        <div className="col-12 col-md-4">
           <Frontend />
         </div>
-        <div className="col">
+        <div className="col-12 col-md-4">
           <Backend />
         </div>
-        <div className="col">
+        <div className="col-12 col-md-4">
           <Tool />
         </div>
       </div>
