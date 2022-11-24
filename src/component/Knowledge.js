@@ -28,7 +28,7 @@ function Backend() {
 function Tool() {
   return (
     <div className="front">
-      <h4>Herramientas</h4>
+      <h4>Tools</h4>
       <p>Visual Studio Code</p>
       <p>Git</p>
       <p>Trello</p>

@@ -1,17 +1,13 @@
-.sobre-mi{
-    height: 400px;
+.data{
+    height: 600px;
+    padding: 1em 2em;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
-
-.sobre-mi .contenedor{
-    max-width: 600px;
-    padding: 1em;
-    text-align: center;
-}
-
-.contenedor .texto{
+.info .texto{
     font-size: 1.2rem;
     padding: 1em 0;
+}
+.foto img{
+    width: 300px;
 }
