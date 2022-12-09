@@ -6,8 +6,6 @@ export function Project() {
   return (
     <section className="proyectos-recientes d-flex flex-column text-center">
       <h1>Proyectos</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
       {/* Galeria proyectos */}
       <div className="container proyectos-contenedor">
         <div className="row">

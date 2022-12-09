@@ -38,18 +38,18 @@ function Tool() {
 
 export function Knowledge() {
   return (
-    <div className="tecs text-center">
+    <div className="tecs container text-center">
       <div className="titulo row">
         <h1>Tecnologias</h1>
       </div>
       <div className="datos row">
-        <div className="col-12 col-md-4">
+        <div className="col-12 col-md-4 col-lg-4">
           <Frontend />
         </div>
-        <div className="col-12 col-md-4">
+        <div className="col-12 col-md-4 col-lg-4">
           <Backend />
         </div>
-        <div className="col-12 col-md-4">
+        <div className="col-12 col-md-4 col-lg-4">
           <Tool />
         </div>
       </div>

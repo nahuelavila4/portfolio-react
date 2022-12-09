@@ -4,7 +4,8 @@
     display: block;
 }
 .proyectos-recientes{
-    padding: 1.5em;
+    padding: 2em 1.5em;
+    margin: 2em 0;
 }
 .proyectos-contenedor{
     padding: 1.8em 0;
@@ -25,6 +26,7 @@
     overflow: hidden;
 }
 .overlay p{
+    color: aliceblue;
     font-size: 1.2rem;
     font-weight: bold;
     margin-top: 50%;

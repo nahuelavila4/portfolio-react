@@ -3,7 +3,7 @@ import "../stylesheet/Hero.css";
 
 export function Hero() {
   return (
-    <div className="hero container">
+    <div className="hero">
       <div className="presentacion row">
         <div className="col">
           <h1>Nahuel Avila</h1>
@@ -15,13 +15,13 @@ export function Hero() {
           <i class="bi bi-linkedin"></i>
         </div>
         <div className="col">
-          <i className="bi bi-github" aria-hidden="true"></i>
+          <i className="bi bi-github"></i>
         </div>
         <div className="col">
-          <i className="bi bi-envelope-fill" aria-hidden="true"></i>
+          <i className="bi bi-envelope-fill"></i>
         </div>
         <div className="col">
-          <i className="bi bi-phone-fill" aria-hidden="true"></i>
+          <i className="bi bi-phone-fill"></i>
         </div>
       </div>
     </div>
