@@ -1,15 +1,18 @@
 .proyectos-recientes img{
     width: 100%;
     height: 100%;
-    /* padding: 2em; */
-    /* border-radius: 2em; */
     display: block;
 }
-
+.proyectos-recientes{
+    padding: 1.5em;
+}
+.proyectos-contenedor{
+    padding: 1.8em 0;
+}
 .proyecto{
     position: relative;
+    margin: 1em;
 }
- 
 .overlay{
     position: absolute;
     bottom: 0;
@@ -33,9 +36,10 @@
 
 .iconos-proyectos{
     display: flex;
+    justify-content: center;
 }
 .overlay i{
     color: aliceblue;
-    font-size: 1.5rem;
-    margin: 2em;
+    font-size: 1.8rem;
+    margin: 1em;
 }

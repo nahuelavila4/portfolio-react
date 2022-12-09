@@ -14,6 +14,10 @@
     margin-top: auto;
 }
 .iconos{
+    font-size: 1.8rem;
     margin-top: auto;
     padding-bottom: 2em;
+}
+.iconos i{
+    margin: 0 1.2em;
 }

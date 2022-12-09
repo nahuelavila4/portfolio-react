@@ -5,9 +5,9 @@ import Foto from "../img/Foto.jpg";
 export function Home() {
   return (
     <div className="sobre-mi">
-      <div className="data container">
+      <div className="data container text-center">
         <div className="row">
-          <div className="info col-6">
+          <div className="info col-md-12 col-lg-6">
             <h1 className="titulos">Acerca De Mi</h1>
             <p className="texto">
               Egresado de escuela tecnica en la especialidad de computacion.
@@ -16,7 +16,7 @@ export function Home() {
               experiencia laboral en el sector IT.
             </p>
           </div>
-          <div className="foto col-6 d-flex justify-content-center">
+          <div className="foto col-md-12 col-lg-6">
             <div>
               <img src={Foto} alt="Foto de perfil"></img>
               <p>Agregar rotacion de Foto</p>

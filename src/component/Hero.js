@@ -12,20 +12,16 @@ export function Hero() {
       </div>
       <div className="iconos row">
         <div className="col">
-          <h4>LinkedIn</h4>
-          <i className="fa fa-linkedin" aria-hidden="true"></i>
+          <i class="bi bi-linkedin"></i>
         </div>
         <div className="col">
-          <h4>Github</h4>
-          <i className="fa fa-git" aria-hidden="true"></i>
+          <i className="bi bi-github" aria-hidden="true"></i>
         </div>
         <div className="col">
-          <h4>Email</h4>
-          <i className="fa fa-exclamation-circle" aria-hidden="true"></i>
+          <i className="bi bi-envelope-fill" aria-hidden="true"></i>
         </div>
         <div className="col">
-          <h4>Telefono</h4>
-          <i className="fa fa-phone" aria-hidden="true"></i>
+          <i className="bi bi-phone-fill" aria-hidden="true"></i>
         </div>
       </div>
     </div>
