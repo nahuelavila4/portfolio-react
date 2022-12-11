@@ -12,16 +12,36 @@ export function Hero() {
       </div>
       <div className="iconos row">
         <div className="col">
-          <i class="bi bi-linkedin"></i>
+          <a
+            href="https://www.linkedin.com/in/nahuelavila-285803162/"
+            target={"_blank"}
+            rel="noopener noreferrer"
+          >
+            <i class="bi bi-linkedin"></i>
+          </a>
         </div>
         <div className="col">
-          <i className="bi bi-github"></i>
+          <a
+            href="https://github.com/nahuelavila4"
+            target={"_blank"}
+            rel="noopener noreferrer"
+          >
+            <i className="bi bi-github"></i>
+          </a>
         </div>
         <div className="col">
-          <i className="bi bi-envelope-fill"></i>
+          <a
+            href="mailto:avilanahuel99@gmail.com"
+            target={"_blank"}
+            rel="noopener noreferrer"
+          >
+            <i className="bi bi-envelope-fill"></i>
+          </a>
         </div>
         <div className="col">
-          <i className="bi bi-phone-fill"></i>
+          <a href="tel:1126132007" target={"_blank"} rel="noopener noreferrer">
+            <i className="bi bi-phone-fill"></i>
+          </a>
         </div>
       </div>
     </div>

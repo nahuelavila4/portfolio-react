@@ -22,4 +22,8 @@
 }
 .iconos i{
     margin: 0 1.2em;
+    color: rgb(214, 222, 229);
+}
+.iconos i:hover{
+    color: aliceblue;
 }
