@@ -19,14 +19,14 @@ export const Footer = () => {
             target={"_blank"}
             rel="noopener noreferrer"
           >
-            <i class="bi bi-linkedin"></i>
+            <i className="bi bi-linkedin"></i>
           </a>
           <a
             href="https://github.com/"
             target={"_blank"}
             rel="noopener noreferrer"
           >
-            <i class="bi bi-envelope-fill"></i>
+            <i className="bi bi-envelope-fill"></i>
           </a>
         </div>
       </footer>
