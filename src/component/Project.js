@@ -45,7 +45,7 @@ export function Project() {
             <div className="proyecto">
               <img src={BreakingBad} alt="breaking bad"></img>
               <div className="overlay">
-                <p>Proyecto Boxeosd df ds</p>
+                <p>Breaking Quote</p>
                 <div className="iconos-proyectos">
                   <a
                     href="https://github.com/nahuelavila4/breaking-bad-quotes"
@@ -97,7 +97,7 @@ export function Project() {
             <div className="proyecto">
               <img src={Boxeo} alt="Boxeo"></img>
               <div className="overlay">
-                <p>Proyecto Boxeosd df ds</p>
+                <p>Boxing Landing Page</p>
                 <div className="iconos-proyectos">
                   <a
                     href="https://github.com/nahuelavila4/Boxing"
@@ -149,7 +149,7 @@ export function Project() {
             <div className="proyecto">
               <img src={Pong} alt="Pong"></img>
               <div className="overlay">
-                <p>Proyecto Boxeosd df ds</p>
+                <p>Pong</p>
                 <div className="iconos-proyectos">
                   <a
                     href="https://github.com/nahuelavila4/Pong"

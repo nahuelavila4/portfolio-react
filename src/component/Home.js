@@ -12,14 +12,13 @@ export function Home() {
             <p className="texto">
               Egresado de escuela tecnica en la especialidad de computacion.
               Evito a toda costa la zona de confort, por lo que siempre estoy
-              aprendiendo algo nuevo. Me encuentro en la busqueda de mi primer
-              experiencia laboral en el sector IT.
+              aprendiendo algo nuevo.
             </p>
           </div>
           <div className="foto col-md-12 col-lg-6">
             <div>
               <img src={Foto} alt="Foto de perfil"></img>
-              <p>Agregar rotacion de Foto</p>
+              <p>Agregar rotacion de Foto. info proyectos y tec actuales</p>
             </div>
           </div>
         </div>
