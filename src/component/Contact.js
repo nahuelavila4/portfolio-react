@@ -5,7 +5,7 @@ export function Contact() {
   return (
     <div className="container contacto">
       <div className="row titulo">
-          <h2>Contacto</h2>
+        <h2>Contacto</h2>
       </div>
       <div className="row contenido">
         <div className="seccion col-sm-12 col-md-6">
@@ -13,39 +13,72 @@ export function Contact() {
           <p>Buenos Aires, Argentina</p>
           <p>+54 1126132007</p>
         </div>
+
         <div className="col-sm-12 col-md-6">
-          <form action="">
-            <div className="row inputs">
-              <div className="col-12 col-md-6">
-                <label htmlFor="nombre">Nombre</label>
-                <input type={"text"} name="nombre"></input>
-              </div>
-              <div className="col-12 col-md-6">
-                <label htmlFor="tema">Asunto</label>
-                <input type={"text"} name="tema"></input>
-              </div>
-            </div>
-
-            <div className="row inputs">
-              <div className="col-12 col-md-6">
-                <label htmlFor="empresa">Empresa</label>
-                <input type={"text"} name="empresa"></input>
-              </div>
-              <div className="col-12 col-md-6">
-                <label htmlFor="email">Email</label>
-                <input type={"email"} name="email"></input>
-              </div>
-            </div>
-
-            <div className="row inputs">
+          <form action="https://formspree.io/f/mbjejewy" method="POST">
+            <div className="row mb-3">
               <div className="col-12 col-md-6 col-lg-6">
-                <label htmlFor="email">Mensaje</label>
-                <textarea name="mensaje" id="msj" rows={"3"}></textarea>
+                <label htmlFor="nombre">Nombre</label>
+                <div>
+                  <input
+                    type={"text"}
+                    className="form-control"
+                    id="nombre"
+                  ></input>
+                </div>
+              </div>
+              <div className="col-12 col-md-6 col-lg-6">
+                <label htmlFor="tema">Asunto</label>
+                <div>
+                  <input
+                    type={"text"}
+                    className="form-control"
+                    id="tema"
+                  ></input>
+                </div>
               </div>
             </div>
 
-            <div className="row inputs">
-              <button type="submit">Enviar</button>
+            <div className="row mb-3">
+              <div className="col-12 col-md-6 col-lg-6">
+                <label htmlFor="empresa">Empresa</label>
+                <div>
+                  <input
+                    type={"text"}
+                    className="form-control"
+                    id="empresa"
+                  ></input>
+                </div>
+              </div>
+              <div className="col-12 col-md-6 col-lg-6">
+                <label htmlFor="email">Email</label>
+                <div>
+                  <input
+                    type={"email"}
+                    className="form-control"
+                    id="email"
+                  ></input>
+                </div>
+              </div>
+            </div>
+
+            <div className="row mb-3">
+              <div className="col-12">
+                <label htmlFor="msj">Mensaje</label>
+                <div>
+                  <textarea
+                    name="mensaje"
+                    className="form-control"
+                    id="msj"
+                  ></textarea>
+                </div>
+              </div>
+            </div>
+
+            <div className="row">
+              <button className="btn btn-info" type="submit">
+                Enviar
+              </button>
             </div>
           </form>
         </div>

@@ -15,14 +15,14 @@ export const Footer = () => {
             <i className="bi bi-github"></i>
           </a>
           <a
-            href="https://github.com/"
+            href="https://www.linkedin.com/in/nahuelavila-285803162/"
             target={"_blank"}
             rel="noopener noreferrer"
           >
             <i className="bi bi-linkedin"></i>
           </a>
           <a
-            href="https://github.com/"
+            href="mailto:avilanahuel99@gmail.com"
             target={"_blank"}
             rel="noopener noreferrer"
           >

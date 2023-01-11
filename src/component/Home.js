@@ -18,7 +18,7 @@ export function Home() {
           <div className="foto col-md-12 col-lg-6">
             <div>
               <img src={Foto} alt="Foto de perfil"></img>
-              <p>Agregar rotacion de Foto. info proyectos y tec actuales</p>
+              {/* <p>Agregar rotacion de Foto. info proyectos y tec actuales</p> */}
             </div>
           </div>
         </div>

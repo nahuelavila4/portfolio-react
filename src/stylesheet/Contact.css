@@ -1,5 +1,5 @@
 .contacto{
-    margin: 4em auto;
+    margin-bottom: 6em;
     padding: 2em 1.5em;
 }
 .titulo h2{
@@ -7,11 +7,4 @@
 }
 .contenido{
     margin-top: 1.6em;
-}
-.inputs button{
-    padding: .8em 0;
-    margin-top: 1.5em;
-}
-.seccion p{
-    margin-bottom: 0;
 }
