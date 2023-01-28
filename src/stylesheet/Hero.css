@@ -1,7 +1,7 @@
 .hero {
   background-image: url("../img/espacio.jpg");
   /* background-color: rgb(36, 33, 29); */
-  width: 100%;
+  /* width: 100%; */
   min-height: 100vh;
   color: aliceblue;
 
@@ -16,14 +16,17 @@
   margin-top: auto;
 }
 .iconos {
-  font-size: 2rem;
+  max-width: 1320px;
+  font-size: 2rem; 
   margin-top: auto;
   padding-bottom: 2em;
 }
-
+/* .redes{
+  margin: auto .4em;
+} */
 .iconos a {
-  width: 160px;
-  height: 160px;
+  /* width: inherit; */
+  height: 140px;
   background: rgb(61, 167, 206);
   border-radius: 0.5em;
   margin: 0.5em 1em;
@@ -38,11 +41,9 @@
 }
 .iconos i {
   transition: 0.5s;
-
   color: rgb(163, 73, 179);
   position: absolute;
 }
-
 .iconos h2 {
   opacity: 0;
   transition: 0.5s;
@@ -52,7 +53,7 @@
 }
 
 .iconos a:hover {
-  box-shadow: -3px 7px 64px -10px rgb(149, 192, 238);
+  box-shadow: -3px 7px 64px -10px rgb(124, 162, 203);
 }
 .iconos a:hover h2 {
   top: 40px;
@@ -63,4 +64,23 @@
   opacity: 0.2;
   right: 70px;
   font-size: 120px;
+}
+
+/* @media (min-width: 576px){
+  .iconos a{
+    max-width: 100%;
+  }
+} */
+
+@media (min-width: 768px){
+  .iconos a{
+    /* width: 140px; */
+    padding: 1em;
+  }
+}
+
+@media (min-width: 992px){
+  .iconos a{
+    width: 200px;
+  }
 }
