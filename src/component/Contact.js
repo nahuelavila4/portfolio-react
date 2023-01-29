@@ -46,10 +46,10 @@ export function Contact() {
               }
               return errores;
             }}
-            onSubmit={(values, { resetForm }) => {
+            /* onSubmit={(values, { resetForm }) => {
               resetForm();
               console.log("Formulario enviado");
-            }}
+            }} */
           >
             {({
               values,
@@ -60,9 +60,8 @@ export function Contact() {
               handleBlur,
             }) => (
               <form
-                action=""
-                onSubmit={handleSubmit}
-                /*{handleSubmit}*/ name="contact v1"
+                /*{handleSubmit}*/ 
+                name="contact v1"
                 method="post"
                 data-netlify="true"
               >
