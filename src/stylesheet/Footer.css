@@ -1,5 +1,6 @@
 .fot {
   height: 100px;
+  margin-top: 5rem;
   color: aliceblue;
   display: flex;
   justify-content: space-around;

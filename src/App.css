@@ -1,25 +1,23 @@
-/* *{
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-html{
-  scroll-behavior: smooth;
-  scroll-padding-top: 75px;
+.sobre-mi {
+  margin-top: 8.5rem;
+  /* margin: 6em auto; */
+  /* padding: 2em 1.5em; */
+  display: flex;
+  align-items: center;
 }
-body{
-  font-weight: 400;
-  overflow-x: hidden;
-  position: relative;
-  background-color: darkseagreen;
-  color: #fff;
-  font-family: 'Poppins', sans-serif;
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.App {
-  text-align: center;
-} */
-
-/* .container{
-  margin: 2em;
-} */
+.info .texto {
+  font-size: 1.2rem;
+}
+.foto img {
+  width: 280px;
+}

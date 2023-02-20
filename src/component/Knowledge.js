@@ -40,7 +40,7 @@ export function Knowledge() {
   return (
     <div className="tecs container text-center">
       <div className="titulo row">
-        <h1>Tecnologias</h1>
+        <h2>Tecnologias</h2>
       </div>
       <div className="datos row">
         <div className="col-12 col-md-4 col-lg-4">

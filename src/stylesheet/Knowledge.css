@@ -1,43 +1,43 @@
-.tecs{
-    margin-bottom: 6em;
-    padding: 2em 1.5em;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+.tecs {
+  margin-top: 8.5rem;
+  padding: 2em 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
-.tecs .datos{
-    margin-top: 1.5em;
+.tecs .datos {
+  margin-top: 1.5em;
 }
 
-.front{
-    height: 270px;
-    background: #d6953a;
-    padding: 1.2em 2em;
-    margin: 0 2em;
-    border-radius: .5em;
-    text-align: center;
-    transition: all 0.3s ease-in;
+.front {
+  height: 270px;
+  background: #d6953a;
+  padding: 1.2em 2em;
+  margin: 0 2em;
+  border-radius: 0.5em;
+  text-align: center;
+  transition: all 0.3s ease-in;
 }
-.front:hover{
-    color: aliceblue;
-    background: #1b1b32;
+.front:hover {
+  color: aliceblue;
+  background: #1b1b32;
 }
-.front h4{
-    font-size: 1.4rem;
+.front h4 {
+  font-size: 1.4rem;
 }
-.front p{
-    font-size: 1rem;
+.front p {
+  font-size: 1rem;
 }
 
 @media (max-width: 766px) {
-    .front p{
-        /* display: inline-block; */
-        padding: 0;
-    }
-    .front{
-        min-width: 300px;
-        margin: .6em 1.5em;
-        padding: .7em 1em;
-    }
+  .front p {
+    /* display: inline-block; */
+    padding: 0;
+  }
+  .front {
+    min-width: 300px;
+    margin: 0.6em 1.5em;
+    padding: 0.7em 1em;
+  }
 }

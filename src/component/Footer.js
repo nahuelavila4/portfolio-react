@@ -5,7 +5,7 @@ export const Footer = () => {
   return (
     <div>
       <footer className="fot">
-        <div className="nombre">Nahuel Avila</div>
+        <div className="nombre"><h5>Nahuel Avila</h5></div>
         <div className="footer-iconos">
           <a
             href="https://github.com/"

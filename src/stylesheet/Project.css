@@ -1,18 +1,18 @@
+.proyectos-recientes{
+    margin-top: 11rem;
+}
 .proyectos-recientes img{
     width: 100%;
     height: 350px;
     display: block;
 }
-.proyectos-recientes{
-    padding: 2em 1.5em;
-    margin-bottom: 6em;
-}
-.proyectos-contenedor{
-    padding: 1.6em 0;
-}
 .proyecto{
     position: relative;
     margin: 1em;
+}
+.proyectos-contenedor{
+    margin-top: 1em;
+    padding: 2em;
 }
 .overlay{
     position: absolute;
