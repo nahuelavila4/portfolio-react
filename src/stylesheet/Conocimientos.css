@@ -1,0 +1,30 @@
+.conocimientos {
+  margin-top: 8.5rem;
+}
+.listas {
+  min-height: 300px;
+  margin: 0 .8em;
+  margin-bottom: .8em;
+  padding: 1em 2em;
+  background-color: rgb(67, 130, 226);
+  border-radius: 0.25em;
+  color: aliceblue;
+}
+.listas h4{
+    text-align: center;
+    margin-bottom: 1em;
+}
+.listas p {
+  display: inline-block;
+  margin-bottom: 0;
+}
+.listas li{
+    margin-bottom: 1.4em;
+
+    display: flex;
+    justify-content: start;
+}
+.listas i{
+    font-size: 1.6rem;
+    margin-right: .6em;
+}

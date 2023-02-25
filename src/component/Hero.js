@@ -8,7 +8,6 @@ export function Hero({ url, nombre, icono }) {
         href={url}
         target={"_blank"}
         rel="noopener noreferrer"
-        // className="mx-auto"
       >
         <i className={icono}></i>
         <h2>{nombre}</h2>

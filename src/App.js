@@ -3,19 +3,23 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { Hero } from "./component/Hero";
 import { Project } from "./component/Project.js";
-import { Knowledge } from "./component/Knowledge.js";
 import { Contact } from "./component/Contact.js";
 import { Footer } from "./component/Footer.js";
 import Foto from "./img/Foto.jpg";
 import imagenes from "./imagenes.js";
+import Conocimientos from "./component/Conocimientos";
+
 function App() {
   return (
     <div className="App">
       <div className="hero">
         <div className="presentacion row">
-          <div className="col">
+          <div className="col-12 titulo-presentacion">
             <h1>Nahuel Avila</h1>
             <h3>Web Developer</h3>
+            <a href="./Avilacv.pdf" download={""}>
+              <button>Descargar CV</button>
+            </a>
           </div>
         </div>
         <div className="iconos row">
@@ -104,7 +108,12 @@ function App() {
           </div>
         </div>
       </section>
-      <Knowledge />
+      <div className="conocimientos">
+        <div className="container">
+          <h2 className="mb-4 text-center">Conocimientos</h2>
+            <Conocimientos />
+        </div>
+      </div>
       <Contact />
       <Footer />
     </div>
