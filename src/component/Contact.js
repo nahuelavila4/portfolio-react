@@ -79,7 +79,7 @@ export function Contact() {
                         className="form-control"
                         id="nombre"
                         name="nombre"
-                        placeholder="Jhon Doe"
+                        placeholder="John Doe"
                         value={values.nombre}
                         onChange={handleChange}
                         onBlur={handleBlur}
@@ -129,7 +129,7 @@ export function Contact() {
                         className="form-control"
                         id="email"
                         name="email"
-                        placeholder="jhon@gmail.com"
+                        placeholder="john@gmail.com"
                         value={values.email}
                         onChange={handleChange}
                         onBlur={handleBlur}

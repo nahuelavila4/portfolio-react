@@ -47,12 +47,19 @@ function App() {
       </div>
       <div className="sobre-mi">
         <div className="data container text-center">
+          <div className="row mb-5">
+            <h2 className="titulos">Acerca De Mi</h2>
+          </div>
           <div className="row">
-            <div className="info col-md-12 col-lg-6">
-              <h2 className="titulos">Acerca De Mi</h2>
+            <div className="info col-md-12 col-lg-6 text-start p-4">
               <p className="texto">
-                Egresado de escuela tecnica en la especialidad de computacion.
-                Evito a toda costa la zona de confort, por lo que siempre estoy
+                Hola, soy Desarrollador Web Fullstack. Me encanta la
+                programacion. El aprender a usar nuevas herramientas, entender
+                como solucionar un error de programacion y compartir estos
+                conocimientos con la comunidad dev son las cosas que mas difruto
+                de mi dia a dia. Mi objetivo actual es encontrar mi primer
+                empleo como desarrollador. Evito a toda costa la zona de
+                confort, por lo que me aseguro de constantemente estar
                 aprendiendo algo nuevo.
               </p>
             </div>
@@ -111,7 +118,7 @@ function App() {
       <div className="conocimientos">
         <div className="container">
           <h2 className="mb-4 text-center">Conocimientos</h2>
-            <Conocimientos />
+          <Conocimientos />
         </div>
       </div>
       <Contact />

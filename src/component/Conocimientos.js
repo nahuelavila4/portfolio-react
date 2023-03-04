@@ -6,15 +6,15 @@ const Conocimientos = () => {
       <div className="col-sm-12 col-md-4 col-lg-4">
         <div className="listas">
           <h4>Front-End</h4>
-          <li>
+          <li className="lista-naranja">
             <i className="fa-brands fa-html5"></i>
             <p>HTML</p>
           </li>
-          <li>
+          <li className="lista-azul">
             <i className="fa-brands fa-css3-alt"></i>
             <p>CSS</p>
           </li>
-          <li>
+          <li className="lista-amarillo">
             <i className="fa-brands fa-js"></i>
             <p>JavaScript</p>
           </li>
@@ -23,19 +23,19 @@ const Conocimientos = () => {
       <div className="col-sm-12 col-md-4 col-lg-4 ">
         <div className="listas">
           <h4>Back-End</h4>
-          <li>
+          <li className="lista-verde">
             <i className="fa-brands fa-node-js"></i>
             <p>Nodejs</p>
           </li>
-          <li>
+          <li className="lista-celeste">
             <i className="fa-brands fa-react"></i>
             <p>Express</p>
           </li>
-          <li>
+          <li className="lista-sql"> 
             <i className="fa-solid fa-database"></i>
             <p>MySQL</p>
           </li>
-          <li>
+          <li className="lista-php">
             <i className="fa-brands fa-php"></i>
             <p>PHP</p>
           </li>
@@ -44,11 +44,11 @@ const Conocimientos = () => {
       <div className="col-sm-12 col-md-4 col-lg-4">
         <div className="listas">
           <h4>Librerias</h4>
-          <li>
+          <li className="lista-celeste">
             <i className="fa-brands fa-react"></i>
             <p>React</p>
           </li>
-          <li>
+          <li className="lista-violeta">
             <i className="fa-brands fa-bootstrap"></i>
             <p>Bootstrap</p>
           </li>

@@ -3,28 +3,64 @@
 }
 .listas {
   min-height: 300px;
-  margin: 0 .8em;
-  margin-bottom: .8em;
-  padding: 1em 2em;
-  background-color: rgb(67, 130, 226);
-  border-radius: 0.25em;
-  color: aliceblue;
+  margin: 0 0.8em;
+  margin-bottom: 2.4em;
+  /* padding: 1em 2em; */
+  background-color: rgb(217, 224, 234);
+  box-shadow: 22px 32px 40px -20px rgb(140, 140, 140);
+  border-radius: 0.5em;
+  color: rgb(45, 45, 45);
 }
-.listas h4{
-    text-align: center;
-    margin-bottom: 1em;
+.listas h4 {
+  text-align: center;
+  padding: .7em 0 1em 0;
 }
 .listas p {
   display: inline-block;
   margin-bottom: 0;
 }
-.listas li{
-    margin-bottom: 1.4em;
-
-    display: flex;
-    justify-content: start;
+.listas li {
+  padding: 1em 0;
+  display: flex;
+  justify-content: start;
 }
-.listas i{
-    font-size: 1.6rem;
-    margin-right: .6em;
+.listas > *:hover{
+  transition: 1s;
+}
+.listas .lista-celeste:hover {
+  background-color: #a2e9fa;
+  color: #45d7fb;
+}
+.listas .lista-naranja:hover {
+  background-color: #f1b49a;
+  color: #f16529;
+}
+
+.listas .lista-sql:hover {
+  background-color: #e2c390;
+  color: #E48E00;
+}
+.listas .lista-amarillo:hover {
+  background-color: #f7e018;
+}
+.listas .lista-azul:hover {
+  background-color: #9eccfb;
+  color: #3399ff;
+}
+.listas .lista-verde:hover {
+  background-color: #bcd7aa;
+  color: #64d61d;
+}
+.listas .lista-violeta:hover {
+  background-color: #c491f8;
+  color: #800af9;
+}
+.listas .lista-php:hover {
+  background-color: #a8a9b3;
+  color: #787cb5;
+}
+.listas i {
+  font-size: 1.6rem;
+  margin-right: 0.6em;
+  padding-left: 1em;
 }
