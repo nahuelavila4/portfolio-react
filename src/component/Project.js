@@ -3,7 +3,7 @@ import "../stylesheet/Project.css";
 
 export function Project({ url, nombre, repo, img }) {
   return (
-    <div className="col-12 col-md-6 col-lg-4">
+    <div className="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
       <div className="proyecto">
         <img src={img} alt="to do"></img>
         <div className="overlay">

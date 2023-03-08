@@ -3,8 +3,8 @@ import "../stylesheet/Conocimientos.css";
 const Conocimientos = () => {
   return (
     <div className="row">
-      <div className="col-sm-12 col-md-4 col-lg-4">
-        <div className="listas">
+      <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center">
+        <div className="listas w-100">
           <h4>Front-End</h4>
           <li className="lista-naranja">
             <i className="fa-brands fa-html5"></i>
@@ -18,10 +18,18 @@ const Conocimientos = () => {
             <i className="fa-brands fa-js"></i>
             <p>JavaScript</p>
           </li>
+          <li className="lista-celeste">
+            <i className="fa-brands fa-react"></i>
+            <p>React</p>
+          </li>
+          <li className="lista-violeta">
+            <i className="fa-brands fa-bootstrap"></i>
+            <p>Bootstrap</p>
+          </li>
         </div>
       </div>
-      <div className="col-sm-12 col-md-4 col-lg-4 ">
-        <div className="listas">
+      <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center">
+        <div className="listas w-100">
           <h4>Back-End</h4>
           <li className="lista-verde">
             <i className="fa-brands fa-node-js"></i>
@@ -38,19 +46,6 @@ const Conocimientos = () => {
           <li className="lista-php">
             <i className="fa-brands fa-php"></i>
             <p>PHP</p>
-          </li>
-        </div>
-      </div>
-      <div className="col-sm-12 col-md-4 col-lg-4">
-        <div className="listas">
-          <h4>Librerias</h4>
-          <li className="lista-celeste">
-            <i className="fa-brands fa-react"></i>
-            <p>React</p>
-          </li>
-          <li className="lista-violeta">
-            <i className="fa-brands fa-bootstrap"></i>
-            <p>Bootstrap</p>
           </li>
         </div>
       </div>

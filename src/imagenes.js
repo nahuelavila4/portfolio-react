@@ -1,5 +1,5 @@
 import Todo from "./img/fondo_lista.jpg";
-import BreakingBad from "./img/breakingbad.jpg";
+import BreakingBad from "./img/breakingbad2.jpg";
 import Divisa from "./img/divisa.jpg";
 import Pong from "./img/pong2.jpg";
 import Clima from "./img/clima.jpg";

@@ -12,6 +12,41 @@ import Conocimientos from "./component/Conocimientos";
 function App() {
   return (
     <div className="App">
+      {/* <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div className="container-fluid">
+          <a className="navbar-brand" href="#">
+            Nahuel Avila
+          </a>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="navbar-nav d-flex">
+            <a className="nav-link" aria-current="page" href="#">
+              Home
+            </a>
+            <a className="nav-link" href="#">
+              Sobre mi
+            </a>
+            <a className="nav-link" href="#">
+              Portfolio
+            </a>
+            <a className="nav-link" href="#">
+              Stack
+            </a>
+            <a className="nav-link" href="#">
+              Contacto
+            </a>
+          </div>
+        </div>
+      </nav> */}
       <div className="hero">
         <div className="presentacion row">
           <div className="col-12 titulo-presentacion">
@@ -47,8 +82,8 @@ function App() {
       </div>
       <div className="sobre-mi">
         <div className="data container text-center">
-          <div className="row mb-5">
-            <h2 className="titulos">Acerca De Mi</h2>
+          <div className="row mb-3">
+            <h2 className="titulos">Sobre Mi</h2>
           </div>
           <div className="row">
             <div className="info col-md-12 col-lg-6 text-start p-4">
@@ -117,7 +152,7 @@ function App() {
       </section>
       <div className="conocimientos">
         <div className="container">
-          <h2 className="mb-4 text-center">Conocimientos</h2>
+          <h2 className="mb-5 text-center">Stack de Tecnologias</h2>
           <Conocimientos />
         </div>
       </div>

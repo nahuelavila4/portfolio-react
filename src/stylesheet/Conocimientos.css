@@ -11,9 +11,12 @@
   border-radius: 0.5em;
   color: rgb(45, 45, 45);
 }
+.col-sm-12 .listas {
+  max-width: 330px;
+}
 .listas h4 {
   text-align: center;
-  padding: .7em 0 1em 0;
+  padding: 0.7em 0 1em 0;
 }
 .listas p {
   display: inline-block;
@@ -23,9 +26,13 @@
   padding: 1em 0;
   display: flex;
   justify-content: start;
+  transition: 0.5s;
+
 }
-.listas > *:hover{
-  transition: 1s;
+.listas > *:hover {
+  transform: scale(1.1);
+  padding: 1.3em 0;
+  border-radius: .5em;
 }
 .listas .lista-celeste:hover {
   background-color: #a2e9fa;
@@ -38,7 +45,7 @@
 
 .listas .lista-sql:hover {
   background-color: #e2c390;
-  color: #E48E00;
+  color: #e48e00;
 }
 .listas .lista-amarillo:hover {
   background-color: #f7e018;
@@ -53,6 +60,8 @@
 }
 .listas .lista-violeta:hover {
   background-color: #c491f8;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
   color: #800af9;
 }
 .listas .lista-php:hover {

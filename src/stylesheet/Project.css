@@ -8,10 +8,13 @@
 }
 .proyecto{
     position: relative;
-    margin: 1em;
+    margin-bottom: 1.5em;
 }
 .proyectos-contenedor{
     padding: 2em;
+}
+.col-12 .proyecto{
+    max-width: 330px;
 }
 .overlay{
     position: absolute;
