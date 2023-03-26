@@ -52,7 +52,7 @@ function App() {
           <div className="col-12 titulo-presentacion">
             <h1>Nahuel Avila</h1>
             <h3>Web Developer</h3>
-            <a href="./Avilacv.pdf" download={""}>
+            <a href="./NahuelAvilaCV.pdf" download={""}>
               <button>Descargar CV</button>
             </a>
           </div>
