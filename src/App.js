@@ -136,9 +136,9 @@ function App() {
               img={imagenes.img4}
             />
             <Project
-              url={"https://github.com/nahuelavila4/currency-converter"}
-              nombre={"Conversor de divisas"}
-              repo="https://github.com/nahuelavila4/currency-converter"
+              url={"https://boxingstar.netlify.app"}
+              nombre={"Boxdoc"}
+              repo={"https://github.com/nahuelavila4/Boxdoc"}
               img={imagenes.img5}
             />
             <Project
