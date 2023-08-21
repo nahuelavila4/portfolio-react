@@ -12,47 +12,12 @@ import Conocimientos from "./component/Conocimientos";
 function App() {
   return (
     <div className="App">
-      {/* <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-        <div className="container-fluid">
-          <a className="navbar-brand" href="#">
-            Nahuel Avila
-          </a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="navbar-nav d-flex">
-            <a className="nav-link" aria-current="page" href="#">
-              Home
-            </a>
-            <a className="nav-link" href="#">
-              Sobre mi
-            </a>
-            <a className="nav-link" href="#">
-              Portfolio
-            </a>
-            <a className="nav-link" href="#">
-              Stack
-            </a>
-            <a className="nav-link" href="#">
-              Contacto
-            </a>
-          </div>
-        </div>
-      </nav> */}
       <div className="hero">
         <div className="presentacion row">
           <div className="col-12 titulo-presentacion">
             <h1>Nahuel Avila</h1>
             <h3>Web Developer</h3>
-            <a href="./NahuelAvilaCV.pdf" download={""}>
+            <a href="./NahuelAvila.pdf" download={""}>
               <button>Descargar CV</button>
             </a>
           </div>
