@@ -107,9 +107,9 @@ function App() {
               img={imagenes.img5}
             />
             <Project
-              url={"https://github.com/nahuelavila4/Pong"}
-              nombre={"Pong"}
-              repo="https://github.com/nahuelavila4/Pong"
+              url={"https://watchmaker.netlify.app/"}
+              nombre={"Watchmaker"}
+              repo="https://github.com/nahuelavila4/watchmaker-landing"
               img={imagenes.img6}
             />
           </div>
